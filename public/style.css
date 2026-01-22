@@ -28,9 +28,13 @@ body {
     flex-wrap: wrap;
 }
 
+<<<<<<< HEAD
 /* MODIFICADO: Añadido position relative para el botón favorito */
 .producto {
     position: relative; 
+=======
+.producto {
+>>>>>>> c52fcc9be681ee59a706851f94f7974aed615622
     background: white;
     width: 260px;
     border-radius: 15px;
@@ -44,6 +48,7 @@ body {
     transform: translateY(-8px);
 }
 
+<<<<<<< HEAD
 /* NUEVO: Estilo del botón de favorito */
 .btn-favorito {
     position: absolute;
@@ -76,6 +81,8 @@ body {
     box-shadow: 0 4px 10px rgba(233, 30, 99, 0.3);
 }
 
+=======
+>>>>>>> c52fcc9be681ee59a706851f94f7974aed615622
 .producto img {
     width: 100%;
     height: 200px;
@@ -90,8 +97,11 @@ body {
 .producto p {
     font-size: 14px;
     color: #666;
+<<<<<<< HEAD
     height: 60px; /* Para que todos los textos midan igual */
     overflow: hidden;
+=======
+>>>>>>> c52fcc9be681ee59a706851f94f7974aed615622
 }
 
 .precio {
@@ -102,8 +112,12 @@ body {
     color: #e91e63;
 }
 
+<<<<<<< HEAD
 /* Estilo para los botones de compra */
 .btn-comprar {
+=======
+button {
+>>>>>>> c52fcc9be681ee59a706851f94f7974aed615622
     background: #e91e63;
     border: none;
     color: white;
@@ -111,11 +125,17 @@ body {
     border-radius: 25px;
     cursor: pointer;
     font-size: 14px;
+<<<<<<< HEAD
     width: 100%; /* Botón a lo ancho de la tarjeta */
     font-weight: bold;
 }
 
 .btn-comprar:hover {
+=======
+}
+
+button:hover {
+>>>>>>> c52fcc9be681ee59a706851f94f7974aed615622
     background: #c2185b;
 }
 
@@ -124,4 +144,8 @@ footer {
     text-align: center;
     padding: 15px;
     font-size: 14px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> c52fcc9be681ee59a706851f94f7974aed615622
