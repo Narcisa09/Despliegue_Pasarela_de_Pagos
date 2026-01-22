@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Peluchilandia | Tienda de Peluches</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <h1>🧸 Peluchilandia</h1>
+    <p>Encuentra el peluche perfecto para cada momento</p>
+</header>
+
+<section class="catalogo">
+
+    <div class="producto">
+        <button class="btn-favorito" onclick="marcarFavorito(this)">🤍</button>
+        <img src="images/oso.png" alt="Peluche oso gigante">
+        <h2>Oso Gigante</h2>
+        <p>Peluche de gran tamaño, suave y abrazable. Perfecto para regalos especiales.</p>
+        <span class="precio">$20.00</span>
+        <button class="btn-comprar" onclick="pagar(2000, 'Oso Gigante')">Comprar</button>
+    </div>
+
+    <div class="producto">
+        <button class="btn-favorito" onclick="marcarFavorito(this)">🤍</button>
+        <img src="images/unicornio.png" alt="Peluche unicornio">
+        <h2>Unicornio Mágico</h2>
+        <p>Colorido y tierno unicornio ideal para niños y ocasiones especiales.</p>
+        <span class="precio">$18.00</span>
+        <button class="btn-comprar" onclick="pagar(1800, 'Unicornio Mágico')">Comprar</button>
+    </div>
+
+    <div class="producto">
+        <button class="btn-favorito" onclick="marcarFavorito(this)">🤍</button>
+        <img src="images/panda.png" alt="Peluche panda">
+        <h2>Panda Amoroso</h2>
+        <p>Peluche suave con diseño adorable, perfecto para decorar o regalar.</p>
+        <span class="precio">$15.00</span>
+        <button class="btn-comprar" onclick="pagar(1500, 'Panda Amoroso')">Comprar</button>
+    </div>
+
+    <div class="producto">
+        <button class="btn-favorito" onclick="marcarFavorito(this)">🤍</button>
+        <img src="images/stitch.png" alt="Peluche Stitch con luz">
+        <h2>Stitch Luminoso</h2>
+        <p>Muñeco de peluche Stitch con luz que respira, juguete para calmar a los niños.</p>
+        <span class="precio">$25.00</span>
+        <button class="btn-comprar" onclick="pagar(2500, 'Stitch Luminoso')">Comprar</button>
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
