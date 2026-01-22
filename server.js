@@ -5,21 +5,21 @@ const cors = require("cors");
 const app = express();
 const PORT = 3000;
 
-// ======================
+// ========================
 // MIDDLEWARES
-// ======================
+// ========================
 app.use(cors());
 app.use(express.json());
 app.use(express.static("public"));
 
-// ======================
+// ========================
 // CONFIGURACIÓN PAYPHONE
-// ======================
+// ========================
 const PAYPHONE_TOKEN = "warcOydMSmAfO4LMbCpLWIYryBIt8ux2Hb8XAIrbOIF4mvPYzs9S_yhk4_x30MDh7n7yPlYhOMYBHk6O0w-3s7bmqnapY3le-dMas2eQFqH2s-wS8jg-kxcylTnqNrwQDN7mkEbzdYfMkDIX1UXNqlTYZ7bLAsQDG35tpwNM1KuUPwAE5oAO0AhkxkNOLF_P3kyOypIvlx9dOFjQKFPC9nYjOswA4CvmKw669uSBP3L52Q_HPEcj9Q3PcCSP09tw15Hgy05oMMvlbF6VOLw31ZxEcLiqHw7jBfAcFG1B2YWtQ2j8cjF3w1gIxrDRe3VSy3CaDQ";
 
-// ======================
+// ========================
 // CREAR PAGO (PREPARE)
-// ======================
+// ========================
 app.post("/crear-pago", async (req, res) => {
     try {
         const response = await axios.post(
