@@ -87,6 +87,7 @@ app.get("/response-payphone", async (req, res) => {
         // ========================
         // VISTA FINAL
         // ========================
+        
         res.send(`
 <!DOCTYPE html>
 <html lang="es">
