@@ -51,6 +51,7 @@ app.post("/crear-pago", async (req, res) => {
     }
 });
 
+
 // ======================
 // CONFIRMACIÓN DEL PAGO
 // ======================
@@ -83,9 +84,10 @@ app.get("/response-payphone", async (req, res) => {
         console.log("✅ CONFIRMACIÓN PAYPHONE:");
         console.log(data);
 
-        // ======================
+        // ========================
         // VISTA FINAL
-        // ======================
+        // ========================
+        
         res.send(`
 <!DOCTYPE html>
 <html lang="es">
