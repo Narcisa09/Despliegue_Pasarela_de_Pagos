@@ -64,6 +64,8 @@ app.get("/response-payphone", async (req, res) => {
         return res.send("❌ No se recibieron los datos necesarios para confirmar el pago");
     }
 
+    
+
     try {
         const confirmResponse = await axios.post(
             "https://pay.payphonetodoesposible.com/api/button/V2/Confirm",
